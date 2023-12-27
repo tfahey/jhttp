@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tfahey_jhttp_1703686086184-push-trigger-input-set
+  identifier: Build_tfahey_jhttp_1703686086184pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jhttp
+  pipeline:
+    identifier: Build_tfahey_jhttp_1703686086184
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
