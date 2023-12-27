@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tfahey_jhttp_1703686086184-pr-trigger-input-set
+  identifier: Build_tfahey_jhttp_1703686086184prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: jhttp
+  pipeline:
+    identifier: Build_tfahey_jhttp_1703686086184
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
